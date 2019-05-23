@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Firebase test</title>
+
+	<script src="firebase.js"></script>
+</head>
+<body>
+
+	<button onclick="saveToFirebase('JW')">Try It</button>
+	
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+	     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+	<script>
+	  // Your web app's Firebase configuration
+	  var firebaseConfig = {
+	    apiKey: "AIzaSyAH7KRoE4cKkJxfyrYgxQmvEutG2sB4cqQ",
+	    authDomain: "taskk-5bf76.firebaseapp.com",
+	    databaseURL: "https://taskk-5bf76.firebaseio.com",
+	    projectId: "taskk-5bf76",
+	    storageBucket: "taskk-5bf76.appspot.com",
+	    messagingSenderId: "1075234401685",
+	    appId: "1:1075234401685:web:79d410e207ec9e78"
+	  };
+	  // Initialize Firebase
+	  firebase.initializeApp(firebaseConfig);
+	</script> 
+
+	
+</body>
+</html>
